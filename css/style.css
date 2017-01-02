@@ -10,21 +10,33 @@
 
 /*Responsywaność strony STOP*/
 
+/*General styles START*/
+
+h1,h2,h3,h4{
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 15px;
+}
+
+p {
+    font-family: "Droid+Serif", sans-serif;
+}
+/*General styles STOP*/
+
 /*Menu nav START*/
 
 #main-nav {
-    background-color: transparent;
-    border: 1px solid transparent;
-    transition:  all 0.3s;
-    z-index: 5;
-    font-family: 
-    
-    
+    background-color: rgba(255,255,255,0);
+    border: rgba(255,255,255,0);
+    margin: 0;
+    transition:  all 0.3s;   
 }
 
 #main-nav ul li a  {
     color: #fff;
-   
+    transition: all 0.3s;
+    font-weight: 300;
+	transition: all 0.3s;
 }
 
 
@@ -33,7 +45,7 @@
 }
 
 #main-nav.scroll  {
-   background-color: #fff;   
+   background-color: rgba(255,255,255,1);   
    
 }
 
@@ -104,3 +116,26 @@ input[type="submit"] {
     font-family: url(montserrat/Montserrat-ExtraBold.otf);
     
 }
+/*Header STOP*/
+
+
+
+/*Section Portfolio START*/
+#portfolio {
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+
+#portfolio #portfolio-item-1 {
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+
+#portfolio #portfolio-item-2 {
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+
+#portfolio #portfolio-item-3 {
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+/*Section Portfolio STOP*/
