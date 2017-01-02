@@ -93,7 +93,7 @@ p {
     color: #FFF;
 } 
 
-input[type="submit"] {
+#main_header .btn-btn-default {
     background-color:#0ed8d6;
     color: white;
     text-align: center;
@@ -127,15 +127,8 @@ input[type="submit"] {
 }
 
 
-#portfolio #portfolio-item-1 {
-    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
-}
 
-#portfolio #portfolio-item-2 {
-    background-image: url(../img/portfolio/typing_on_laptop.jpg);
-}
 
-#portfolio #portfolio-item-3 {
-    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
-}
+
+
 /*Section Portfolio STOP*/
