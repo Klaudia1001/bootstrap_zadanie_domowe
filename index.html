@@ -6,12 +6,11 @@
     <title>zadanie_domowe_Bootstrap</title> 
      
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     <script src="https://use.fontawesome.com/264c6a713e.js"></script>
     <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8"/>
-   
-    
-<!--Main styles -->
-     <link rel="stylesheet" href="css/style.css">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="css/style.css">
+     
 </head>
 
 
@@ -19,20 +18,19 @@
     
 <!--Menu nav START -->
     <nav id="main-nav" class= "navbar navbar-default navbar-fixed-top" >
-        <div class= "container">
-           <div class="navbar-header">
+        <div class= "container-fluid">
+           <div class="navbar-header col-lg-6">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#moje-menu" aria-expanded="false">
                     
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
                     
                 </button>
-                
+             <a class="navbar-brand" href="#">Bootstrap Grid</a>
            
-            </div>
+         </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="moje-menu">
@@ -56,10 +54,11 @@
 <!--Main header START -->
     <header id="main_header" class="container-fluid">
        <div class= "main-header-content">
-           <h2>Nam liberto tempore, cum soluta </h2>
-           <h1>LOREM IPSUM DOLOR</h1>
-           <div class="btn-group" role="group" aria-label="...">
-              <button type="button" class="btn btn-default">VIEW MORE</button>
+           <h2 id="main-header-text">Nam liberto tempore, cum soluta </h2>
+           <h1 id="first-header-text">LOREM IPSUM DOLOR</h1>
+        <div class="button">
+             <button type="button" class="btn btn-default">VIEW MORE</button>
+             </div>
        </div>
         
     </header>
@@ -68,27 +67,38 @@
 
 <!--Section services START-->
 <section id="services">
-    <div class="container">
-    <div class= "row text-center">
-       <h2>SERVICES</h2>
+    <div class="container-fluid">
+        <div class= "row text-center">
+           <h2>SERVICES</h2>
+        </div>
+    <div class="row">
        <p>Praesentium voluptatum deleniti atque corrupti</p>
-    </div><br />
-    <div id="web-icons" class="row">
-       <figure class="col-md-4">
-           <a href="#"><i class="fa fa-briefcase" aria-hidden="true"></i></a>
+    </div>
+    
+    <div class="first-service col-md-4 col-sm-3">
+      <div class="first-icon" id="briefcase">
+           <i class="fa fa-briefcase" aria-hidden="true"></i>
+        </div>
+          
            <h4>Web Development</h4>
-           <p>Cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis volupats assumenda est, omnis </p>
-       </figure>
-        <figure class="col-md-4">
-           <a href="#"><i class="fa fa-cloud-download" aria-hidden="true"></i></a>
+           <h5>Cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis volupats assumenda est, omnis </h5>
+        </div>
+      <div class="second-service col-md-4 col-sm-3">
+        <div class="second-icon" id="cloud">
+           <i class="fa fa-cloud-download" aria-hidden="true"></i>
+          </div>
+          
            <h4>E-Commerce</h4>
-           <p>Cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis volupats assumenda est, omnis </p>
-       </figure>
-       <figure class="col-md-4">
-           <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i></a>
+           <h5>Cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis volupats assumenda est, omnis </h5>
+        </div>
+        
+        <div class="third-service col-md-4 col-sm-3">
+           <div class="third-icon" id="comment">
+               <i class="fa fa-comment-o" aria-hidden="true"></i>
+               
            <h4>Web Design</h4>
-           <p>Cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis volupats assumenda est, omnis </p>
-       </figure>
+           <h5>Cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis volupats assumenda est, omnis </h5>
+       
     </div>
     </div>
 </section>
@@ -105,7 +115,7 @@
                     <div class="thumbnail">
                       <img src="img/portfolio/chestnut_on_bracket.jpg"  alt="chestnuts" width="3714" height="5616" >
                           <div class="caption">
-                            <h3>Earum Rerum Hic</h3>
+                            <h2>Earum Rerum Hic</h2>
                                 <p>Temporibus Autem Quisbusdam</p>
        
                          </div>
@@ -116,7 +126,7 @@
                     <div class="thumbnail">
                       <img src="img/portfolio/typing_on_laptop.jpg" alt="laptop">
                           <div class="caption">
-                            <h3>Earum Rerum Hic</h3>
+                            <h2>Earum Rerum Hic</h2>
                                 <p>Temporibus Autem Quisbusdam</p>
                             </div>
                     </div>
@@ -126,7 +136,7 @@
                     <div class="thumbnail">
                       <img src="img/portfolio/child_with_blue_paint.jpg" alt="child">
                           <div class="caption">
-                            <h3>Earum Rerum Hic</h3>
+                            <h2>Earum Rerum Hic</h2>
                                 <p>Temporibus Autem Quisbusdam</p>
                             </div>
                     </div>
@@ -136,7 +146,7 @@
                     <div class="thumbnail">
                       <img src="img/portfolio/chaotic_paint.jpg" alt="paint">
                           <div class="caption">
-                            <h3>Earum Rerum Hic</h3>
+                            <h2>Earum Rerum Hic</h2>
                                 <p>Temporibus Autem Quisbusdam</p>
                             </div>
                     </div>
@@ -146,7 +156,7 @@
                     <div class="thumbnail">
                       <img src="img/portfolio/house_with_blue_doors.jpg" alt="house">
                           <div class="caption">
-                            <h3>Earum Rerum Hic</h3>
+                            <h2>Earum Rerum Hic</h2>
                                 <p>Temporibus Autem Quisbusdam</p>
                             </div>
                     </div>
@@ -156,8 +166,80 @@
 
 
 <!--Section Team START-->
+ <section id="team">
+     <div class="container">
+         <div class ="row">
+             <h2>MEET OUR TEAM</h2>
+             <p>Praesentium voluptatum deleniti atque</p>
+         </div><br />
+         <div id="photos" class="row">
+            <div class="col-sm-6 col-md-4">
+             <img src="img/team/man-1.jpg" class="img-circle" alt="Cinque Terre" width="200" height="200">   
+             <h3>Erick Stern</h3>
+             <h5>Account Manager</h5>
+                 <div class="team-social-icons">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>	
+				    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a> 
+                </div> 
+             </div>
+             <div class="col-sm-6 col-md-4">
+             <img src="img/team/man-2.jpg" class="img-circle" alt="Cinque Terre" width="200" height="200">
+             <h3>Martin Muller</h3>
+             <h5>Developer</h5>
+                 <div class="team-social-icons">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>	
+				    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>   
+                 </div>
+             </div>
+             <div class="col-sm-6 col-md-4">
+             <img src="img/team/woman-1.jpg" class="img-circle" alt="Cinque Terre" width="200" height="200">
+             <h3>Anna Smith</h3>
+             <h5>Project Manager</h5>
+                 <div class="team-social-icons">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>	
+				    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>   
+                 </div>
+             </div><br /><br/>
+             <h5>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati</h5>
+         </div>
+     </div>
+ </section>
+<!--SEction Team STOP-->
 
+<!--Section Contact-->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+           <h2>CONTACT US</h2>
+           <p>praesentium voluptatum deleniti atque</p>
+            <div class="contact-form col-sm-6">
+               <form action="">
+                <input type="text" name='name' placeholder="YOUR NAME" />
+				<input type="email" name="email" placeholder="YOUR EMAIL" />
+                <input type="text" name='phone' placeholder="YOUR PHONE" />
+                </form>
+            </div>
+            <div class="contact-form col-sm-6">
+              <form action="">
+               <textarea name="message" placeholder="YOUR MESSAGE"></textarea> 
+                </form>
+            </div>
+             <div class="button">
+             <button type="button" class="btn btn-default">SEND MESSAGE</button>
+        </div>
+    </div>
+</section>
+<!--Section Contact STOP-->
 
+<!--Section Footer START-->
+<footer>
+			<div class="container">
+				<p class="copyright">Copyright &copy Your Website </p>
+			</div>
+		</footer>
 
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
