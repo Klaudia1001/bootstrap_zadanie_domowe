@@ -1,0 +1,21 @@
+ @media all and (max-width: 980px) {
+     #contact .contact-form-msg {
+         margin-top: 20px;
+     }
+     #main_nav {
+         background-color: white;   
+     }
+     
+     #main_nav .navbar-brand {
+         color: black;
+     }
+     
+     #main_nav .navbar-nav a {
+         color: black;
+         width: 10vh;
+     }
+     
+     #main_nav .navbar-nav a:hover {
+         color: orange;
+     }
+ }
