@@ -50,7 +50,7 @@ section {
 /*Menu nav START*/
 
 #main-nav {
-    background-color: rgba(255,255,255,0);
+    background-color:#A4A4A4;
     border: rgba(255,255,255,0);
     margin: 0;
     transition:  all 0.3s;   
@@ -289,132 +289,29 @@ section {
     margin: 10px;
 }
 
-/*#portfolio {
-    background-color: #f7f7f7;
-    text-align: center;
-}
 
-#portfolio #first-portfolio-item-photo {
-    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
-}
-
-#portfolio #second-portfolio-item-photo {
-    background-image: url(../img/portfolio/typing_on_laptop.jpg);
-}
-
-#portfolio #third-portfolio-item-photo {
-    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
-}
-
-#portfolio #fourth-portfolio-item-photo {
-    background-image: url(../img/portfolio/chaotic_paint.jpg);
-}
-
-#portfolio #fifth-portfolio-item-photo {
-    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
-}
-
-#portfolio #sixth-portfolio-item-photo {
-    background-image: url(../img/portfolio/box_of_cookies.jpg);
-}
-
-#portfolio #text-design {
-    margin-top: -10px;
-    vertical-align: middle;
-}
-
-#portfolio .single-portfolio-item {
-    text-align: center;
-	height: 250px;
-    width: auto;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-    
-}
-
-#portfolio .container-fluid .portfolio-item-background {
-    background-color: white;
-    left: 0;
-	right: 0;
-    margin-top: -5px;
-    margin-bottom: 35px; 
-    height: 100px;
-}
-
-#portfolio #text-design {
-    transform: translateY(60%);
-}
-
-#portfolio #text-design h4 {
-    margin: 0px;
-    padding: 0px;
-}
-
-#portfolio .portfolio-image-mask {
-    background-color: rgba(14, 216, 214, 0.70);
-    height: 250px;
-    opacity: 0;
-    transition: all 0.4s ease-in;
-    text-align: center;
-}
-
-#portfolio .portfolio-image-mask:hover {
-    opacity: 1;
-    cursor: crosshair;
-}
-
-#portfolio .portfolio-image-mask i {
-    top: 40%;
-    font-size: 50px;
-    color: #ffffff;
-    position: relative;
-}
-
-
-#portfolio #text-design h4 {
-    margin-top: 10px;
-}
-
-#portfolio #text-design h2 {
-    padding: 0px;
-    margin: 10px;
-}*/
-
-/*Section Portfolio STOP*/
-
-/*Section Team START*/
-
-/*#team .single-team-member-photo {
-	height: 150px;
-	width: 150px;
-	background-size: cover;
-	border-radius: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}*/
 
 #team .row h5 {
     text-align: center;
 }
 
 .circular--landscape {
-  display:flex;
+  display:inline-block;
   position: relative;
   width: 200px;
   height: 200px;
   overflow: hidden;
   border-radius: 50%;
-  text-align: center;
+  text-align: center
   
 }
 
 .circular--landscape img {
   width: auto;
   height: 100%;
-  margin-left: -50px;
-  margin-right: -50%;
+  box-sizing: border-box;
+  text-align: center;
+   
 }
 
 
